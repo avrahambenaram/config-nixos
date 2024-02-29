@@ -1,0 +1,1 @@
+{"eval":{"depth":4,"target":{"args":[],"installable":".#nixosConfigurations.nixos"}},"formatting":{"command":"nixpkgs-fmt"},"options":{"enable":true,"target":{"args":[],"installable":".#nixosConfigurations.nixos.options"}}}
