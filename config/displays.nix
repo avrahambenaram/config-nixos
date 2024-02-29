@@ -1,3 +1,5 @@
+{ config, pkgs, ... }:
+
 {
   # Hyprland
   xdg.portal.wlr.enable = true;
@@ -7,7 +9,18 @@
 
   # Enable the GNOME Desktop Environment.
   services.xserver.enable = true;
-  services.xserver.displayManager.gdm.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
   services.gnome.core-utilities.enable = false;
+
+  # Display manager
+  services.greetd = {
+    enable = true;
+    settings = {
+      default_session = {
+        command = "${pkgs.greetd.tuigreet}/bin/tuigreet --time --cmd Hyprland";
+        user = "greeter";
+      };
+    };
+    vt = 2;
+  };
 }
