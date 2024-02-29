@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, lib, ... }:
 
 {
   # NUR
@@ -45,8 +45,8 @@
   qbittorrent
   scrcpy spotify spotify-tui spotifyd steam-run
   tor-browser-bundle-bin tiv tty-clock tmux
-  unzip uwufetch
-  vesktop vivaldi vlc
+  unstable.vivaldi unzip uwufetch
+  vesktop vlc
   wget wpsoffice wtype
   yt-dlp
   zathura zsh
