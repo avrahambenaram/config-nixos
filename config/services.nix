@@ -5,9 +5,6 @@
   # Flatpak
   services.flatpak.enable = true;
 
-  # Spotifyd
-  services.spotifyd.enable = true;
-
   # Tor
   services.tor = {
     enable = true;
