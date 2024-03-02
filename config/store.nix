@@ -34,7 +34,7 @@
   cava calcurse curl
   discord docker-compose
   exfatprogs eza
-  figma-linux flatpak
+  figma-linux firefox flatpak
   gimp gnome.nautilus gparted gzip
   hollywood htop home-manager
   imv inkscape insomnia

@@ -6,8 +6,5 @@
     isNormalUser = true;
     description = "Avraham Ben Aram";
     extraGroups = [ "docker" "libvirtd" "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      firefox
-    ];
   };
 }
