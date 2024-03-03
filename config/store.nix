@@ -45,8 +45,8 @@
   qbittorrent
   scrcpy spotify spotify-tui spotifyd steam-run
   tor-browser-bundle-bin tiv tty-clock tmux
-  unstable.vivaldi unzip uwufetch
-  vesktop vlc
+  unstable.vivaldi unstable.vesktop unzip uwufetch
+  vlc
   wget wpsoffice wtype
   yt-dlp
   zathura zsh
