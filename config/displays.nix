@@ -1,10 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  # Hyprland
   xdg.portal.wlr.enable = true;
-  programs.hyprland.enable = true;
-  programs.hyprland.xwayland.enable = true;
   programs.xwayland.enable = true;
 
   # Enable the GNOME Desktop Environment.
