@@ -3,6 +3,7 @@
 {
   xdg.portal.wlr.enable = true;
   programs.xwayland.enable = true;
+  programs.sway.enable = true;
 
   # Enable the GNOME Desktop Environment.
   services.xserver.enable = true;
