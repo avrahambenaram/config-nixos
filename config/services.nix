@@ -22,6 +22,27 @@
     };
   };
 
+  # Evdevremapkeys
+  services.evdevremapkeys = {
+    enable = true;
+    settings = {
+      devices = [
+        {
+          input_name = "AT Translated Set 2 keyboard";
+          output_name = "remap-kbd";
+          remappings = {
+            KEY_LEFTCTRL = [
+              "KEY_CAPSLOCK"
+            ];
+            KEY_CAPSLOCK = [
+              "KEY_LEFTCTRL"
+            ];
+          };
+        }
+      ];
+    };
+  };
+
   # Enable CUPS to print documents.
   services.printing.enable = true;
 }
