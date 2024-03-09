@@ -40,6 +40,24 @@
           hold = ["KEY_LEFTCTRL"];
         }
       ];
+      remap = [
+        {
+          input = ["KEY_LEFTALT" "KEY_UP"];
+          output = ["KEY_PAGEUP"];
+        }
+        {
+          input = ["KEY_LEFTALT" "KEY_DOWN"];
+          output = ["KEY_PAGEDOWN"];
+        }
+        {
+          input = ["KEY_LEFTALT" "KEY_LEFT"];
+          output = ["KEY_HOME"];
+        }
+        {
+          input = ["KEY_LEFTALT" "KEY_RIGHT"];
+          output = ["KEY_END"];
+        }
+      ];
     };
   };
 

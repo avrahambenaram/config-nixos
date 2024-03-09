@@ -5,11 +5,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1709952134,
-        "narHash": "sha256-60XdoQRh/vFzRp8mDalAixmqvMnu9DfbbWqNU9yQn2s=",
+        "lastModified": 1709954981,
+        "narHash": "sha256-Ltba1ycvs+6UQaH/T54AdYd51lP9FxXHCmI6xVmjhjU=",
         "owner": "avrahambenaram",
         "repo": "evremap",
-        "rev": "7fe187e02aacd5cf321f1a2f3828e509ea5e1f5f",
+        "rev": "d7b010955e8fcb4af0840aee99de36e39d55ec3b",
         "type": "github"
       },
       "original": {
