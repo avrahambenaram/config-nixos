@@ -1,3 +1,5 @@
+{ config, pkgs, ... }:
+
 {
   # Auto-cpufreq
   services.auto-cpufreq.enable = true;
@@ -22,22 +24,20 @@
     };
   };
 
-  # Evdevremapkeys
-  services.evdevremapkeys = {
+  services.evremap = {
     enable = true;
     settings = {
-      devices = [
+      device_name = "AT Translated Set 2 keyboard";
+      dual_role = [
         {
-          input_name = "AT Translated Set 2 keyboard";
-          output_name = "remap-kbd";
-          remappings = {
-            KEY_LEFTCTRL = [
-              "KEY_CAPSLOCK"
-            ];
-            KEY_CAPSLOCK = [
-              "KEY_LEFTCTRL"
-            ];
-          };
+          input = "KEY_LEFTCTRL";
+          tap = ["KEY_CAPSLOCK"];
+          hold = ["KEY_CAPSLOCK"];
+        }
+        {
+          input = "KEY_CAPSLOCK";
+          tap = ["KEY_ESC"];
+          hold = ["KEY_LEFTCTRL"];
         }
       ];
     };
