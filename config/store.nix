@@ -1,13 +1,6 @@
 { config, pkgs, lib, ... }:
 
 {
-  # NUR
-  nixpkgs.config.packageOverrides = pkgs: {
-    nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
-      inherit pkgs;
-    };
-  };
-
   # Nix store
   nix.optimise.automatic = true;
 
@@ -45,13 +38,11 @@
   qbittorrent
   scrcpy spotify spotify-tui spotifyd steam-run
   tor-browser-bundle-bin tiv tty-clock tmux
-  unstable.vivaldi unstable.vesktop unzip uwufetch
+  unstable.unimatrix unstable.vivaldi unstable.vesktop unzip uwufetch
   vlc
   wget wpsoffice wtype
   yt-dlp
   zathura zsh
-
-  nur.repos.avrahambenaram.unimatrix
   ];
 
   # Fonts
