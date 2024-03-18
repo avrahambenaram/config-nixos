@@ -1,3 +1,6 @@
+let
+  openPorts = [ 80 3000 8081 25565 ];
+in 
 {
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -10,8 +13,8 @@
   networking.networkmanager.enable = true;
 
   # Open ports in the firewall.
-  networking.firewall.allowedTCPPorts = [ 80 25565 ];
-  networking.firewall.allowedUDPPorts = [ 80 25565 ];
+  networking.firewall.allowedTCPPorts = openPorts;
+  networking.firewall.allowedUDPPorts = openPorts;
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
 }
