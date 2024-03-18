@@ -5,6 +5,6 @@
   users.users.avraham = {
     isNormalUser = true;
     description = "Avraham Ben Aram";
-    extraGroups = [ "docker" "libvirtd" "networkmanager" "wheel" ];
+    extraGroups = [ "adbusers" "docker" "libvirtd" "networkmanager" "wheel" ];
   };
 }
