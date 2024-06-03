@@ -26,7 +26,7 @@
   brightnessctl bash btop
   cava calcurse curl
   discord docker-compose
-  exfatprogs eza
+  exfatprogs exiftool eza
   figma-linux firefox flatpak
   gimp gnome.nautilus gparted gzip
   hollywood htop home-manager
@@ -39,7 +39,7 @@
   scrcpy spotify spotify-tui spotifyd steam-run
   tor-browser-bundle-bin tiv tty-clock tmux
   unstable.unimatrix unstable.vivaldi unstable.vesktop unzip uwufetch
-  vlc
+  ventoy vlc
   wget wpsoffice wtype
   yt-dlp
   zathura zsh
