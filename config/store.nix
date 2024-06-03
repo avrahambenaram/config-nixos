@@ -36,7 +36,7 @@
   obs-studio onefetch openssl
   p7zip pavucontrol pfetch pipes python3
   qbittorrent
-  scrcpy spotify spotify-tui spotifyd steam-run
+  scrcpy spotify spotifyd steam-run
   tor-browser-bundle-bin tiv tty-clock tmux
   unstable.unimatrix unstable.vivaldi unstable.vesktop unzip uwufetch
   ventoy vlc
