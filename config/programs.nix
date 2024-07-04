@@ -3,6 +3,8 @@
 {
   programs.adb.enable = true;
 
+  programs.kdeconnect.enable = true;
+
   programs.java = {
     enable = true;
     binfmt = true;
