@@ -27,11 +27,11 @@
   cava calcurse chromium curl
   docker-compose
   exfatprogs exiftool eza
-  figma-linux firefox flatpak
+  figma-linux flatpak
   gimp gnome.nautilus gparted gzip
   hollywood htop home-manager
   imv inkscape insomnia
-  lynx
+  librewolf lynx
   nano ncdu neofetch neovim nurl ntfs3g
   obs-studio onefetch openssl
   p7zip pavucontrol pfetch pipes python3
