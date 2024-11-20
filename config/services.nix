@@ -7,23 +7,6 @@
   # Flatpak
   services.flatpak.enable = true;
 
-  # Tor
-  services.tor = {
-    enable = true;
-    openFirewall = true;
-    relay = {
-      enable = true;
-      role = "relay";
-    };
-    settings = {
-      ContactInfo = "souzaavraham@gmail.com";
-      Nickname = "Avraham";
-      ORPort = 9001;
-      ControlPort = 9051;
-      BandWidthRate = "1 MBytes";
-    };
-  };
-
   services.evremap = {
     enable = true;
     settings = {
