@@ -6,10 +6,5 @@
 
   virtualisation.docker.enable = true;
 
-  virtualisation.virtualbox.host.enable = true;
-  users.extraGroups.vboxusers.members = [ "avraham" ];
-  virtualisation.virtualbox.host.enableExtensionPack = true;
-  virtualisation.virtualbox.guest.enable = true;
-
   virtualisation.hypervGuest.enable = true;
 }

@@ -1,4 +1,4 @@
-{ config, pkgs, lib, ... }:
+{ pkgs, ... }:
 
 {
   # Nix store
@@ -24,8 +24,8 @@
   environment.systemPackages = with pkgs; [
   alacritty auto-cpufreq
   brightnessctl bash btop
-  cava calcurse curl
-  discord docker-compose
+  cava calcurse chromium curl
+  docker-compose
   exfatprogs exiftool eza
   figma-linux firefox flatpak
   gimp gnome.nautilus gparted gzip
@@ -38,8 +38,8 @@
   qbittorrent
   scrcpy spotify spotifyd steam-run
   tor-browser-bundle-bin tiv tty-clock tmux
-  unstable.unimatrix unstable.vivaldi unstable.vesktop unzip uwufetch
-  ventoy vlc
+  unstable.unimatrix unstable.vesktop unzip uwufetch
+  ventoy virtualboxKvm vlc
   wget wpsoffice wtype
   yt-dlp
   zathura zsh
