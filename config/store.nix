@@ -25,7 +25,7 @@
   alacritty auto-cpufreq
   brightnessctl bash btop
   cava calcurse chromium curl
-  docker-compose
+  discord docker-compose
   exfatprogs exiftool eza
   figma-linux flatpak
   gimp gnome.nautilus gparted gzip
